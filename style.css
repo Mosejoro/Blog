@@ -1,0 +1,80 @@
+@media screen and (max-width:767px) {
+    @font-face {
+        font-family: Figtree;
+        src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+
+    }   
+    body{
+        font-family:figtree ;
+        background-color:  hsl(47, 88%, 63%);
+        border-radius: 10%;
+    }
+    .One{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        border-radius: 4%;
+        border:1px solid black;
+        width: 80%;
+        box-shadow: 2px 2px 30px;
+        padding: 10px;
+    }
+    .Id{
+        width: 90%;
+        padding: 20px;
+    }
+    span{
+        background-color:hsl(47, 88%, 63%);
+        margin-left: 20px;
+    }
+    p{
+        color:  hsl(0, 0%, 50%);
+    }
+    .Two{
+        display: flex;
+    }
+}
+@media screen and (min-width:767px) and (max-width:2023px) {
+    @font-face {
+        font-family: Figtree;
+        src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+
+    }   
+    body{
+        font-family:figtree ;
+        background-color:  hsl(47, 88%, 63%);
+        border-radius: 10%;
+    }
+    .One{
+        margin-top: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        border-radius: 4%;
+        border:1px solid black;
+        box-shadow: 2px 2px 30px;
+        padding: 10px;
+    }
+    .Id{
+        width: 90%;
+        padding: 20px;
+    }
+    span{
+        background-color:hsl(47, 88%, 63%);
+        margin-left: 20px;
+    }
+    p{
+        color:  hsl(0, 0%, 50%);
+    }
+    .Two{
+        display: flex;
+    }
+}
